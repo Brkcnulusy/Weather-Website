@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="#">
+              <img src="./assets/images/sun.svg" alt="sun" />
+              <h2>FuckUrWeather</h2>
+            </a>
+          </div>
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+        <div class="search-container">
+          <div class="input-wrapper">
+            <form class="search-form js-form">
+              <input class="js-search-input" type="text" />
+            </form>
+
+            <div class="icon-wrapper">
+              <img src="./assets/images/search.svg" alt="search" />
+            </div>
+          </div>
+          <div class="weather-cards-wrapper">
+            <h3>En Son Konumlar</h3>
+            <div class="weather-cards js-weather-cards">
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="cities-weather">
+            <div class="title">
+                <p>Türkiye hava durumu</p>
+            </div>
+          <div class="cities-wrapper js-cities">
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/js/app.js"></script>
+  </body>
+</html>
