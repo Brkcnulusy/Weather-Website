@@ -34,4 +34,4 @@ Projede kullandığımız resimler ise assets için images klasöründe tutulmak
 
 
 # Project Link
-[Weather Website](https://brkcnulusy.github.io/Weather-Website/)
+[Weather Website](https://weather-website-txfk88nsb-burak-can-s-projects.vercel.app/)
