@@ -25,7 +25,7 @@ const weather = function () {
     // Function
 
     const requestPost = function () {
-        const url = "http://api.weatherapi.com/v1/current.json";
+        const url = "https://api.weatherapi.com/v1/current.json";
         const key = "42552535cb534f0bb1e115745242702";
         post(`${url}?key=${key}&q=bulk`, requestBody).then((datas) => {
             const cardDatas = datas.bulk;
@@ -36,7 +36,7 @@ const weather = function () {
     const _handleSubmit = function (e) {
         e.preventDefault();
         const city = input.value
-        const path = "http://api.weatherapi.com/v1/current.json?key=42552535cb534f0bb1e115745242702&q=" + city ;
+        const path = "https://api.weatherapi.com/v1/current.json?key=42552535cb534f0bb1e115745242702&q=" + city ;
         _getRequest(path);
         input.value = '';
     }
